@@ -1,0 +1,3 @@
+http://msdn.microsoft.com/en-us/library/windows/hardware/ff538842(v=vs.85).aspx
+
+http://msdn.microsoft.com/en-gb/library/windows/hardware/ff536681(v=vs.85).aspx
