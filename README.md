@@ -177,15 +177,5 @@ If you have any thirt party applications such as the **UWAKS** or the **Apple Bo
 
 **[64-bit (x64) build](https://github.com/samartzidis/WinA1314/blob/master/Binaries/WinA1314%20Setup.exe?raw=true) / [32-bit build](https://github.com/samartzidis/WinA1314/blob/master/Binaries/WinA1314%20Setup%20(x86).exe?raw=true)**
 
-<div style="text-align: left">
-<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">	
-	<input type="hidden" name="cmd" value="_donations"/>
-	<input type="hidden" name="business" value="samartzidis@gmail.com"/>
-	<input type="hidden" name="lc" value="US"/>
-	<input type="hidden" name="item_name" value="George Samartzidis"/>
-	<input type="hidden" name="currency_code" value="EUR"/>
-	<input type="hidden" name="bn" value="PP-DonationsBF:btn_donateCC_LG.gif:NonHosted"/>
-	<input style="width: auto; background: none; box-shadow: none" type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" />
-	<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1"/>
-</form>
-</div>
+
+
