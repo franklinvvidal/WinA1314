@@ -4,11 +4,6 @@
 
 [![keyboard](keyboard.png)](http://en.wikipedia.org/wiki/Apple_Keyboard)
 
-The Apple Wireless Keyboard (A1314) is directly recognised by Windows as a HID Keyboard device but has a few functional issues:
-
-- The Fn and the Eject keys are dead.
-- The Ctrl key is in an unusual position (Ctrl and Fn are swapped).
-- Certain essential keys are missing for Windows operation, such as Print Screen, Insert, Delete, Page Up/Down, Home and End.
 
 ## Implementation Specifics
 
@@ -194,19 +189,3 @@ If you have any thirt party applications such as the **UWAKS** or the **Apple Bo
 	<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1"/>
 </form>
 </div>
-
-For bug or questions please mail me at: ![](/images/mail.png), or you can leave a comment [here](comments.html).
-
-A big thanks to all of you who sent comments, improvement ideas, bug reports or even donations!
-
-### Source Code:
-
-You can download it [here](https://github.com/samartzidis/WinA1314). To build the project, you will need Visual Studio 2012 and the Windows Driver Kit 8.
-
-<br/>
-
-<div style="text-align: center; ">
-  <img alt="" src="si-award-clean.png" style="width: auto; background: none; box-shadow: none"/>
-</div>
-
-
