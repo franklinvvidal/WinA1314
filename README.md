@@ -173,7 +173,7 @@ If you have any thirt party applications such as the **UWAKS** or the **Apple Bo
 
 > **Although special care was taken during implementation and testing I accept no responsibility for any kind of damage that could be caused by installing and using this software. By agreeing to download and install this software, you also agree to take full responsibility of any such circumstance.**
 
-### Download Links:
+### Installer Download Links:
 
 **[64-bit (x64) build](https://github.com/samartzidis/WinA1314/blob/master/Binaries/WinA1314%20Setup.exe?raw=true) / [32-bit build](https://github.com/samartzidis/WinA1314/blob/master/Binaries/WinA1314%20Setup%20(x86).exe?raw=true)**
 
