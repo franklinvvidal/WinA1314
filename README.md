@@ -161,11 +161,17 @@ This is may be the case if you have not uninstalled the A1314 Apple Bootcamp dri
 
 ## Requirements
 
+### Installation
+
 You must have administrator rights on the OS for installation.
 
 WinA1314 requires Windows 7 or higher. Installation on Windows Vista is also allowed, but I have not tested it.
 
 If you have any thirt party applications such as the **UWAKS** or the **Apple Bootcamp** drivers already installed on your system, please uninstall them first before installing WinA1314.
+
+### Build
+
+To build the project you will need Visual Studio 2012 (or better) and the Windows Driver Kit 8. For building the installer, you will need Inno Setup.
 
 <br/>
 
