@@ -161,9 +161,9 @@ WinA1314 requires Windows 7 or higher. Installation on Windows Vista is also all
 
 If you have any thirt party applications such as the **UWAKS** or the **Apple Bootcamp** drivers already installed on your system, please uninstall them first before installing WinA1314.
 
-### Build
+### Building
 
-To build the project you will need Visual Studio 2012 (or better) and the Windows Driver Kit 8. For building the installer, you will need Inno Setup.
+To build the project you will need Visual Studio 2012 (or better) and the Windows Driver Kit 8. For the installer, you will need Inno Setup.
 
 
 ## Disclaimer and Download
