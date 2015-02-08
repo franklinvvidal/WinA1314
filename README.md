@@ -179,8 +179,6 @@ To build the project you will need Visual Studio 2012 (or better) and the Window
 
 > **Although special care was taken during implementation and testing I accept no responsibility for any kind of damage that could be caused by installing and using this software. By agreeing to download and install this software, you also agree to take full responsibility of any such circumstance.**
 
-### Installer Download Links:
-
 **[64-bit (x64) build](https://github.com/samartzidis/WinA1314/blob/master/Binaries/WinA1314%20Setup.exe?raw=true) / [32-bit build](https://github.com/samartzidis/WinA1314/blob/master/Binaries/WinA1314%20Setup%20(x86).exe?raw=true)**
 
 
