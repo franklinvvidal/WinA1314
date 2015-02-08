@@ -85,8 +85,6 @@ Using the above solution, **WinA1314** intercepts keystrokes before they reach u
     </tr>
   </table>
 
-<br/>
-
 ## Technical
 
 You can temporarily stop the driver by issuing the following command at the command prompt:
@@ -127,15 +125,11 @@ To discover key scancodes, you can use [keyview.exe](keyview.exe). Just look at 
 
 If you modify any registry settings for the driver, you will need to restart it from the command line using the previously described procedure.
 
-<br/>
-
 ## Swapping the Fn and Ctrl Keycaps
 
 ![swap keys](swap.png)
 
 After installing the driver you can optionally remove and swap the Fn and Ctrl keycaps as they have exactly the same size on this keyboard. This can be done by inserting two fingernails just underneath the two upper corners of the key and pulling it up gently.
-
-<br/>
 
 ## Known Issues
 
@@ -157,8 +151,6 @@ This is because the WinA1314 service, that controls the keyboard, might need a f
 ### 6. The Fxx keys do not work or seem to have a strange behaviour.
 This is may be the case if you have not uninstalled the A1314 Apple Bootcamp driver.
 
-<br/>
-
 ## Requirements
 
 ### Installation
@@ -173,7 +165,6 @@ If you have any thirt party applications such as the **UWAKS** or the **Apple Bo
 
 To build the project you will need Visual Studio 2012 (or better) and the Windows Driver Kit 8. For building the installer, you will need Inno Setup.
 
-<br/>
 
 ## Disclaimer and Download
 
