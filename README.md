@@ -9,7 +9,7 @@
 
 **WinA1314** is implemented as a Windows driver and service module that utilizes the **Interception** kernel mode driver (keyboard.sys) implemented by [Francisco Lopes](http://oblita.com/interception.html). This driver is already signed and allows the interception and modification of keys at kernel level. It is implemented as an upper filter above the **kbdclass.sys**, the upper level keyboard class filter driver.
 
-Using the above solution, **WinA1314** intercepts keystrokes before they reach user-level and thus overcomes the shortcomings of the previously described user-mode applications.
+WinA1314 has been extensibly tested on Windows 7, 8 and 8.1. It also works on Windows 10 but it seems to suffer from some instability issues. Unfortunately, due to the fact that I do not own neither can recompile the underlying "Interception" driver, I cannot help in resolving these.
 
 ## Default Key Mapppings
 
