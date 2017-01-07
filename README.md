@@ -1,15 +1,12 @@
 ## **WinA1314**
 
-**WinA1314** is a kernel mode driver for the **Apple Wireless Keyboard** in **Windows**.
-
-[![keyboard](keyboard.png)](http://en.wikipedia.org/wiki/Apple_Keyboard)
-
+**WinA1314** is a Windows driver for the **Apple Wireless Keyboard (A1314)**.
 
 ## Implementation Specifics
 
-**WinA1314** is implemented as a Windows driver and service module that utilizes the **Interception** kernel mode driver (keyboard.sys) implemented by [Francisco Lopes](http://oblita.com/interception.html). This driver is already signed and allows the interception and modification of keys at kernel level. It is implemented as an upper filter above the **kbdclass.sys**, the upper level keyboard class filter driver.
+**WinA1314** is implemented as a Windows KBDCLASS class filter driver and helper service module. The kernel part is implemented by [Francisco Lopes](http://oblita.com/interception.html) and it is properly signed.
 
-WinA1314 has been extensibly tested on Windows 7, 8 and 8.1. It also works on Windows 10 but it seems to suffer from some instability issues. Unfortunately, due to the fact that I do not own neither can recompile the underlying "Interception" driver, I cannot help in resolving these.
+WinA1314 has been extensibly tested on Windows 7, 8 and 8.1.
 
 ## Default Key Mapppings
 
@@ -126,8 +123,6 @@ To discover key scancodes, you can use [keyview.exe](keyview.exe). Just look at 
 If you modify any registry settings for the driver, you will need to restart it from the command line using the previously described procedure.
 
 ## Swapping the Fn and Ctrl Keycaps
-
-![swap keys](swap.png)
 
 After installing the driver you can optionally remove and swap the Fn and Ctrl keycaps as they have exactly the same size on this keyboard. This can be done by inserting two fingernails just underneath the two upper corners of the key and pulling it up gently.
 
