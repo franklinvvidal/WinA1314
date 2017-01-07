@@ -1,10 +1,6 @@
 ## **WinA1314**
 
-**WinA1314** is a Windows driver for the **Apple Wireless Keyboard (A1314)**.
-
-## Implementation Specifics
-
-**WinA1314** is implemented as a Windows KBDCLASS class filter driver and helper service module. The kernel part is implemented by [Francisco Lopes](http://oblita.com/interception.html) and it is properly signed.
+**WinA1314** is a Windows driver for the **Apple Wireless Keyboard (A1314)**. It is implemented as an upper KBDCLASS class filter driver accompanied by helper service module. The kernel part is implemented by [Francisco Lopes](http://oblita.com/interception.html) and it is properly signed.
 
 WinA1314 has been extensibly tested on Windows 7, 8 and 8.1.
 
