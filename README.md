@@ -120,10 +120,6 @@ To discover key scancodes, you can use keyview.exe. Just look at the "Scan" valu
 
 If you modify any registry settings for the driver, you will need to restart it from the command line using the previously described procedure.
 
-## Swapping the Fn and Ctrl Keycaps
-
-After installing the driver you can optionally remove and swap the Fn and Ctrl keycaps as they have exactly the same size on this keyboard. This can be done by inserting two fingernails just underneath the two upper corners of the key and pulling it up gently.
-
 ## Known Issues
 
 ### 1. 'Ctrl + LeftShift + T' key combination (commonly used in Google Chrome to re-open closed tabs) does not work.
