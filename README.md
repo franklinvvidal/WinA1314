@@ -114,7 +114,7 @@ For instance, to map the arrow down key to page down but only when the Fn key is
 
 ```0x50,0x2,0,``` ```0,0,0,``` ```0x51,0x2,0```
 
-To discover key scancodes, you can use [keyview.exe](keyview.exe). Just look at the "Scan" value (which is shown in decimal but WinA1314 can also accept decimal so no need to convert). Also whenever you see the "Ext" set to Yes, you will need to set the value "2" to the "Src/Dst Key Extra" field of the WinA1314 registry. For example, if you press the arrow down key, in keyview.exe you will see: Scan=80 Ext=Yes. This means that this key in WinA1314 should be entered as "80,2,0". If you press key "A", in keyview.exe you will see: Scan=30, Ext=No. This key will be entered in WinA1314 as "30,0,0". 
+To discover key scancodes, you can use keyview.exe. Just look at the "Scan" value (which is shown in decimal but WinA1314 can also accept decimal so no need to convert). Also whenever you see the "Ext" set to Yes, you will need to set the value "2" to the "Src/Dst Key Extra" field of the WinA1314 registry. For example, if you press the arrow down key, in keyview.exe you will see: Scan=80 Ext=Yes. This means that this key in WinA1314 should be entered as "80,2,0". If you press key "A", in keyview.exe you will see: Scan=30, Ext=No. This key will be entered in WinA1314 as "30,0,0". 
 
 If you modify any registry settings for the driver, you will need to restart it from the command line using the previously described procedure.
 
