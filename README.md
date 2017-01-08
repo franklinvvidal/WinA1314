@@ -140,6 +140,9 @@ This is because the WinA1314 service, that controls the keyboard, might need a f
 ### 6. The Fxx keys do not work or seem to have a strange behaviour.
 This is may be the case if you have not uninstalled the A1314 Apple Bootcamp driver.
 
+### 7. The keyboard seems to loose the key mapping behaviour and I have to restart the service to bring it back.
+A likely cause for this is that your Power Management setting of your Bluetooth adapter is set to *Allow the computer to turn off this device to save power*. Try unchecking it from the adapter's Power Management tab in Device Manager.
+
 ## Requirements
 
 ### Installation
